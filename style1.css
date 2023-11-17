@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'Josefin Sans',sans-serif;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.header {
+    padding: 60px;
+    width: 1440px;
+    height: 150px;
+    text-align: left;
+    background: #A99DEC;
+    ;
+    color: black;
+    font-size: 30px;
+  }
+  
+
+.home{
+    height: 100vh;
+    width: 100%;
+    background-image: url('Rectangle 1.png');
+    background-size: cover;
+    background-position: center;
+    background-color:#A99DEC ;
+}
+
+ul{
+    display: flex;
+    width: 500px ;
+    justify-content: space-around ;
+
+}
+
+.footer{
+    background-color:#37383C;
+    ;
+}
